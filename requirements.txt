@@ -14,7 +14,7 @@ pypianoroll==0.4.6
 PyYAML==3.13
 scipy==1.1.0
 SharedArray==3.0.0
-six==1.11.0
+six~=1.15.0
 tensorboard==2.6.0
 tensorflow-gpu==2.6.2
 termcolor==1.1.0
