@@ -6,7 +6,7 @@ from __future__ import print_function
 import warnings
 import matplotlib
 import SharedArray as sa
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 ## notebook
 import matplotlib.pyplot as plt

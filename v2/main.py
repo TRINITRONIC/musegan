@@ -2,7 +2,7 @@
 """
 import importlib
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from config import CONFIG
 MODELS = importlib.import_module(
     '.'.join(('musegan', CONFIG['exp']['model'], 'models')))

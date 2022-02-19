@@ -3,7 +3,7 @@ import os.path
 import logging
 import imageio
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.io_utils import pianoroll_to_image, vector_to_image
 from musegan.io_utils import image_grid, save_pianoroll
 from musegan.losses import get_adv_losses

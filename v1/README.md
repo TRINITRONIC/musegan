@@ -40,7 +40,7 @@ in *ISMIR Late-Breaking and Demo Session*, 2017.
 ## Usage
 
 ```python
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.core import MuseGAN
 from musegan.components import NowbarHybrid
 from config import *

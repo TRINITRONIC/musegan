@@ -6,7 +6,7 @@ import os
 import time
 from glob import glob
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from six.moves import xrange
 from sklearn.utils import shuffle
 from musegan.libs.ops import *

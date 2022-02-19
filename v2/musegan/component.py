@@ -1,7 +1,7 @@
 """Base class for the components.
 """
 from collections import OrderedDict
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.utils.neuralnet import NeuralNet
 
 class Component(object):

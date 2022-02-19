@@ -3,7 +3,7 @@
 import os.path
 import time
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.model import Model
 from musegan.musegan.components import Discriminator, Generator
 from musegan.utils.metrics import Metrics

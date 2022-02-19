@@ -9,7 +9,7 @@ import numpy as np
 from shutil import copyfile
 import os
 import SharedArray as sa
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import glob
 
 print('[*] config...')

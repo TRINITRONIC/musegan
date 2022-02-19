@@ -22,7 +22,7 @@ import shutil
 import distutils.dir_util
 import importlib
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 # Quick setup
 SETUP = {

@@ -5,7 +5,7 @@ from __future__ import print_function
 import os
 import scipy.misc
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from pprint import pprint
 import SharedArray as sa
 import pickle

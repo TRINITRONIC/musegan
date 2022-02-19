@@ -1,5 +1,5 @@
 """This file defines the network architecture for the generator."""
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.nn import relu, leaky_relu, tanh, sigmoid
 from ..ops import conv3d, tconv3d, get_normalization
 

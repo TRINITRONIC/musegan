@@ -1,7 +1,7 @@
 """Classes that define the generator and the discriminator.
 """
 from collections import OrderedDict
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.component import Component
 from musegan.utils.neuralnet import NeuralNet
 

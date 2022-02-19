@@ -1,7 +1,7 @@
 """Classes for neural networks and layers.
 """
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.utils.ops import binary_stochastic_ST
 
 SUPPORTED_LAYER_TYPES = (

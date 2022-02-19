@@ -2,7 +2,7 @@
 """
 import os.path
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from musegan.utils import midi_io
 from musegan.utils import image_io
 

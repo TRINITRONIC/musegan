@@ -2,7 +2,7 @@ from __future__ import print_function
 import numpy as np
 import os
 import SharedArray as sa
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 class InputData:
