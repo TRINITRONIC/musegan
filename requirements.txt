@@ -1,5 +1,5 @@
 setuptools>=41.0.0
-absl-py==0.4.1
+absl-py~=0.10
 astor==0.7.1
 gast==0.4.0
 grpcio>=1.24.3
